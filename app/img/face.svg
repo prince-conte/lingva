@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.75" height="22.44" viewBox="0 0 11.75 22.44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="faceboook" class="cls-1" d="M791.692,1642.15v3.14h4.072l-0.9,4.04h-3.167v10.32h-4.525v-10.32H784v-4.04h3.167v-3.14s-0.4-4.28,3.62-4.94h4.977v3.59H793.5S791.761,1640.76,791.692,1642.15Z" transform="translate(-784 -1637.22)"/>
+</svg>
