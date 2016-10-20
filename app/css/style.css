@@ -659,6 +659,7 @@ header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line {
   float: left;
   width: 100%;
   height: 50%;
+  position: relative;
 }
 header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line ul {
   display: inline-block;
@@ -677,14 +678,9 @@ header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line in
   width: 78px;
   border-right: solid 1px #e5e5e5;
   height: 41px;
+  background: transparent;
 }
-header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line li:last-child {
-  border-right: solid 0px #e5e5e5;
-}
-header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line input:last-child {
-  border-right: solid 0px #e5e5e5;
-}
-header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line .b1-1::before {
+header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line .b1-1 {
   content: '';
   position: absolute;
   display: block;
@@ -695,7 +691,7 @@ header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line .b
   margin: 0px 6px -5px;
   background: #9999ff;
 }
-header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line .b1-2::before {
+header .header--spisok-date .spisok-date--lines-m .lines-m--block .block-line .b1-2 {
   content: '';
   position: absolute;
   display: block;
