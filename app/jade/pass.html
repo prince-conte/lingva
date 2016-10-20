@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    include include/head.jade
+  body
+    ul.mont-sk
+        li September
+        li Oktober
+        li November 
+              
+    .block-login
+        .tabs
+            .middle
+                .login-in
+                    .block-login_body 
+                        span.title Восстановление пароля
+                        p Для восстановления пароль введите адрес своей электронной почты и ждите письма
+                        .login-in__it
+                            input(type="email" placeholder="Почта"  required)
+                                
+                        input.subs(type="submit" value="Восстановить")
+                            
+                            
+    script(type="text/javascript", src="js/jquery.min.js")
+    script(type="text/javascript", src="js/valid-form.js")
+ 

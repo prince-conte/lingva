@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    include include/head.jade
+  body
+    ul.mont-sk
+        li September
+        li Oktober
+        li November 
+              
+    .block-login
+        .tabs
+            .middle
+                .login-in
+                    .block-login_body 
+                        .logo
+                            img(src="img/logo.png")
+                        span.title Вход
+                        .login-in__it
+                            input(placeholder="Логин"  required)
+                     
+                        .login-in__it
+                            input(type="password" placeholder="Пароль"  required)
+                                
+                        input.subs(type="submit" value="Войти")
+                        
+                        a(href="#") Забыли пароль? Воспользуйтесь формой восстановления пароля...
+                            
+                            
+    script(type="text/javascript", src="js/jquery.min.js")
+    script(type="text/javascript", src="js/valid-form.js")
+ 

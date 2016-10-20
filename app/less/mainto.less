@@ -83,7 +83,7 @@ span {color: #fff; font-family: @fontB;}
 span {color: #fff; font-family: @fontB;}
 }  
 ul { display: inline-block; height: 100%; width: 940px; float: left;}
-    li {padding: 15px 5px; width: 94px; color: #fff; font-family: @fontB; float: left; text-align: center; }
+    li {padding: 15px 5px; width: 78px; color: #fff; font-family: @fontB; float: left; text-align: center; }
 }
     
 
@@ -96,10 +96,12 @@ span {color: @coltxt;line-height: 1.4; font-weight: 400; display: block;}
 .lines-m--block {display: inline-block; height: 82px; float: left; width: 940px;
 .block-line {float: left; width: 100%; height: 50%;
 ul { display: inline-block; height: 100%; float: left; width: 945px;}
-li, input {padding: 11px 0px; color: @coltxt;  font-weight: 400; float: left; text-align: center; position: relative; width: 94px; border-right: solid 1px #e5e5e5; }
+li, input {padding: 11px 0px; color: @coltxt;  font-weight: 400; float: left; text-align: center; position: relative; width: 78px; border-right: solid 1px #e5e5e5; height: 41px; }
+li:last-child {border-right: solid 0px #e5e5e5;}    
+input:last-child {border-right: solid 0px #e5e5e5;}    
     
-.b1-1::before {content:''; position: absolute; display: block; top: 11px; left: 0px; width: 20px; height: 20px; margin: 0px 12px -5px; background: #9999ff;}
-.b1-2::before {content:''; position: absolute; display: block; top: 11px; left: 0px; width: 20px; height: 20px; margin: 0px 12px -5px; background: #ffccff;}
+.b1-1::before {content:''; position: absolute; display: block; top: 11px; left: 0px; width: 20px; height: 20px; margin: 0px 6px -5px; background: #9999ff;}
+.b1-2::before {content:''; position: absolute; display: block; top: 11px; left: 0px; width: 20px; height: 20px; margin: 0px 6px -5px; background: #ffccff;}
     
 //.b1 {width: 108px}
 //.b2 {width: 101px} 
@@ -113,13 +115,13 @@ li, input {padding: 11px 0px; color: @coltxt;  font-weight: 400; float: left; te
 //.b10 {width: 36px} 
     
 
-li.b11 {width: 127px;} 
+//li.b11 {width: 127px;} 
 }    
     
   
 }
     
-.itogo {float: right; width: 105px; height: 82px; display: inline-table; text-align: center;
+.itogo {float: right; width: 105px; height: 82px; display: inline-table; text-align: center; border: solid 1px #e5e5e5;
 span { color: @coltxt;  font-weight: 400;}    
 }
     
@@ -276,13 +278,42 @@ img {width: auto; position: relative;}
     .footer--linked--two {width: 40%;}
     
 }
+    
+    
 
 
 }
 
 
+.block-login {position: fixed; display: block; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 99999999;}
+.block-login_body {float: left; width: 100%; border-radius: 10px; background: #fff;padding: 25px; border: solid 2px @colfirm;
+ a {color: @colfirm; margin-top: 10px; float: left; width: 100%; display: block; text-align: left;}
+p {color: @coltxt; margin: 10px 0; float: left; width: 100%; display: block; text-align: left;}
+}
+.tabs {position: absolute; display: table; top: 0px; left: 0px; width: 100%; height: 100%;}
+.phbg {background: #000; opacity: .7;position: absolute; display: table; top: 0px; left: 0px; width: 100%; height: 100%;}
+.login-in {position: relative; display: block; width: 380px; min-height: 320px;  margin: 0 auto;  text-align: center;
 
+.title {float: left; width: 100%; margin: 10px 0; color: @coltxt; font-size: 24px; font-family: @fontB; text-align: center; }
+    .logo{float: left; width: 100%; margin: 10px 0; img {width: 25%; position: relative; margin: 0 auto;}}    
+.login-in__it {float: left; width: 100%; border-radius: 5px; margin: 7px 0px; overflow: hidden; position: relative; border:solid 1px @colfirm;
+input, select {float: left; width: 100%; padding: 10px; color: @coltxt; font-size: 14px; background: transparent;}  }  
+    
+.subs{display: inline-block; background: @colfirm; color: #fff; font-size: 14px;  text-align: center; white-space: nowrap; padding: 12px 20px;
+ .m-speed; border: solid 2px @colfirm; margin-top: 10px;}
+    
+.subs:hover {background: #fff; color: #2744b6;}
+ 
+    .close {position: absolute; display: block; width: 35px; height: 35px; top: -40px; right: -40px; 
+        span {width: 100%; display: block; height: 2px; position: absolute; top:17px; left: 0px; background: #fff;.pov1}
+        span::before {content:'';position: absolute; display: block; width: 100%; height: 2px; background: #fff; left:0px; top: 0px;.pov2}
+    
+    }   
+    .close:hover {span {background: @colfirm;} span::before {background: @colfirm;}}
+    
+}
 
+#popup {display: none;}
 
 
 

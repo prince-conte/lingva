@@ -25,6 +25,7 @@ montSou[11] = $('.mont-sk li:eq(8)').text();  // для текущего зап�
 
      
      
+     
 $(function(slider){ 
 $('#slider').css('width' , widthSliderBlock) 
 });
@@ -61,9 +62,11 @@ asClikc = 0;
 });
      
      
+$('.close').click(function () {  
+    
+$('#popup').fadeOut(0);
      
-     
-     
+});       
      
 // teams
      

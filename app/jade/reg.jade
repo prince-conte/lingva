@@ -1,0 +1,50 @@
+doctype html
+html
+  head
+    include include/head.jade
+  body
+    ul.mont-sk
+        li September
+        li Oktober
+        li November 
+              
+    .block-login
+        .tabs
+            .middle
+                .login-in
+                    .block-login_body 
+                        .logo
+                            img(src="img/logo.png")
+                        span.title Регистрация
+                    
+                        .login-in__it
+                            input(placeholder="Логин"  required)
+                     
+                        .login-in__it
+                            input(placeholder="ФИО"  required)
+                     
+                        .login-in__it
+                            input(type="password" placeholder="Пароль"  required)
+                     
+                        .login-in__it
+                            input(type="password" placeholder="Повторите пароль"  required)
+                      
+                        .login-in__it
+                            input(type="email" placeholder="Почта"  required)
+                       
+                        .login-in__it
+                            input(placeholder="Телефон" id="phones"  required)
+                                                  
+                        .login-in__it
+                            select(required)
+                                option Выберите группу
+                                option Группа 1
+                                option Группа 2
+                                option Группа 3
+                                
+                        input.subs(type="submit" value="Зарегистрироваться")
+                            
+                            
+    script(type="text/javascript", src="js/jquery.min.js")
+    script(type="text/javascript", src="js/valid-form.js")
+ 
