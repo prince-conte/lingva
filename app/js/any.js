@@ -65,6 +65,9 @@ asClikc = 0;
 $('.close').click(function () {  
     
 $('#popup').fadeOut(0);
+$('#popup1').fadeOut(0);
+$('#popup2').fadeOut(0);
+$('#popup3').fadeOut(0);
      
 });       
      

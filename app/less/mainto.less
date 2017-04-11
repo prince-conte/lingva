@@ -4,16 +4,21 @@
 
 textarea {resize: none;}
 
-.home-but {float: right; height: 100%; background: @colfirm; color: #fff; font-size: 14px;  text-align: center; white-space: nowrap; padding: 12px 20px;
+.home-but {float: right; height: 100%; background: @colfirm; color: #fff; font-size: 14px;  text-align: center; white-space: nowrap; padding: 10px 14px;
  .m-speed;
 i {display: inline-block; margin-right: 10px; background: url(../img/home.svg); .bgCCC; width: 21px; height: 21px;  margin-bottom: -5px;}
 }
 
 .home-but:hover {background: #fff; color: #2744b6;}
 
-.exit-but {float: right; height: 100%; background: #2744b6; color: #fff; font-size: 14px;  text-align: center; white-space: nowrap; padding: 12px 20px;
+.exit-but {float: right; height: 100%; background: #2744b6; color: #fff; font-size: 14px;  text-align: center; white-space: nowrap; padding: 10px 14px;
  .m-speed;
 i {display: inline-block; margin-right: 10px; background: url(../img/exit.svg); .bgCCC; width: 14px; height: 21px;  margin-bottom: -5px;}
+} 
+
+.exit-back {float: right; height: 100%; background: #2744b6; color: #fff; font-size: 14px;  text-align: center; white-space: nowrap; padding: 10px 14px;
+ .m-speed;
+i {position: relative; top:1px; display: inline-block; margin-right: 10px; background: url(../img/back.svg); .bgCCC; width: 21px; height: 21px;  margin-bottom: -5px;}
 } 
 
 
@@ -142,7 +147,7 @@ span { color: @coltxt;  font-weight: 400;}
 .non-days {margin-top: 140px; span {font-weight: 400;}}
 
 
-.block--months {margin-top: 50px;
+.block--months {margin-top: 10px;
 .content {overflow: hidden;}
 .active-bar {width: 100%; text-align: center; margin: 0 auto; position: relative; height: 46px;}
 h2 { display: inline-block; font-size: 20px; color: @coltxt;font-family: @fontB;}
@@ -167,12 +172,12 @@ h2 { display: inline-block; font-size: 20px; color: @coltxt;font-family: @fontB;
     
 .liner-line {float: left; width: 100%;  border-bottom: solid 1px @colbg2;}   
 .liner-line:hover {border-bottom: solid 1px @colfirm;}       
-.week--line {float: left; width: 450px; height: 30px; padding: 5px 20px; font-weight: 400; cursor: pointer;} 
+.week--line {float: left; width: 450px; height: 30px; padding: 5px 20px; font-weight: 400; cursor: pointer; background: #efefef;} 
 
-.week--line-mark {float: left; width: 80px; height: 30px; padding: 5px 20px; font-weight: 400; cursor: pointer; text-align: center;
+.week--line-mark {float: left; width: 80px; height: 30px; padding: 5px 20px; font-weight: 400; cursor: pointer; text-align: center; background: #efefef;
 border-left: solid 1px @colbg2;}
-.week--line-big {float: left; width: 100%; height: 60px; padding: 5px 20px; font-weight: 400;}  
-.title--week {position: absolute; display: block; .pov2; color: #656565; top:133px; left:-166px; font-family: @fontB; width: 285px;;
+.week--line-big {float: left; width: 100%; height: 60px; padding: 5px 20px; font-weight: 400; background: #efefef;}  
+.title--week {position: absolute; display: block; .pov2; color: #656565; top:133px; left:-166px; font-family: @fontB; width: 285px;
 text-align: center;}
 }    
 }  
@@ -246,11 +251,11 @@ a:hover { background: #e5e5e5;}
 
 
 
-footer {float: left; width: 100%; height: 200px; background: url(../img/fbg.jpg); margin-top: 75px; padding: 30px 0; min-width: 1170px;
+footer {float: left; width: 100%; height: 200px; background: url(../img/fbg.jpg); margin-top: 10px; padding: 30px 0; min-width: 1170px;
 .content {height: 100%;}
 p {text-align: center; color: #fff; line-height: 1.5; float: left; width: 100%; a {color: #2c9ed8;}}
 .footer--linked {float: left; width: 100%;  margin: 15px 0 0;
-.footer--linked--one {float: left; width: 30%; position: relative; height: 83px;
+.footer--linked--one {float: left; width: 33%; position: relative; height: 83px;
 .footer--linked--one--line {float: left; width: 100%; margin: 3px 0;
 span {display: inline-block; font-family: @fontB; color: #fff;}
 a {display: inline-block; font-family: @fontB; color: #fff; .m-speed; font-weight: 400;}
@@ -260,8 +265,8 @@ a:hover {color: #2c9ed8;}
 } 
 .footer--linked--one--line-two {float: left; width: 100%; margin: 3px 0 8px;} 
     b {font-family: @fontB; color:#fff; float: left; width: 100%; display: block; text-align: center; margin-bottom: 16px;}
-.social {float: left; width: 100%; height: 48px; text-align: center;
-li {display: inline-table; width: 45px; height: 48px; background: #23252a; margin: 0 5px; .m-speed;}
+.social {float: left; width: 100%; height: 48px; text-align: center; display: flex;
+li {display: inline-table; width: 45px; height: 48px; background: #23252a; margin: 0 2px; .m-speed;}
 li:hover {background: @colfirm;}
 .vk {margin-top: -2px;}
 a {.middle; position: relative; margin: 0 auto; text-align: center;
@@ -271,9 +276,9 @@ img {width: auto; position: relative;}
 }
 }
     
-.button-block {position: absolute; display: block; bottom: 0px; right: 0px;}
+.button-block {position: absolute; display: flex; bottom: 0px; right: 0px;}
 } 
-    .footer--linked--two {width: 40%;}
+    .footer--linked--two {width: 33%;}
     
 }
     
@@ -312,7 +317,61 @@ input, select {float: left; width: 100%; padding: 10px; color: @coltxt; font-siz
 }
 
 #popup {display: none;}
+#popup2 {display: none;}
+     
 
 
+
+.input-block {
+    position: relative; 
+    float: left;
+    width: 100%;
+    margin-bottom: 10px; 
+    padding: 0px 30px 0;
+		text-align: left
+}
+
+.label-check {
+    position: relative;
+		display: block;
+    font-size: 14px;
+    padding-left: 25px;
+    
+    input {
+        position: absolute;
+        left: 0;
+        top: 4px;
+        display: inline-block;
+        
+    }
+}
+
+.button-block {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.popup-button {
+    width: auto !important;
+    float: none !important;
+    display: inline-block !important;
+    height: 47px;
+    background: #2c9ed8;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 12px 20px;
+    color: #fff !important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    
+    &:not(:last-child) {
+        margin-right: 20px;  
+    }
+}
 
 

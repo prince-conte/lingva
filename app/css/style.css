@@ -356,7 +356,7 @@ textarea {
   font-size: 14px;
   text-align: center;
   white-space: nowrap;
-  padding: 12px 20px;
+  padding: 10px 14px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -385,7 +385,7 @@ textarea {
   font-size: 14px;
   text-align: center;
   white-space: nowrap;
-  padding: 12px 20px;
+  padding: 10px 14px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -399,6 +399,33 @@ textarea {
   background-repeat: no-repeat !important;
   background-size: contain!important;
   width: 14px;
+  height: 21px;
+  margin-bottom: -5px;
+}
+.exit-back {
+  float: right;
+  height: 100%;
+  background: #2744b6;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  padding: 10px 14px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.exit-back i {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  margin-right: 10px;
+  background: url(../img/back.svg);
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: contain!important;
+  width: 21px;
   height: 21px;
   margin-bottom: -5px;
 }
@@ -730,7 +757,7 @@ header .header--spisok-date .spisok-date--lines-m .block-line:last-child li {
   font-weight: 400;
 }
 .block--months {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .block--months .content {
   overflow: hidden;
@@ -845,6 +872,7 @@ header .header--spisok-date .spisok-date--lines-m .block-line:last-child li {
   padding: 5px 20px;
   font-weight: 400;
   cursor: pointer;
+  background: #efefef;
 }
 .block--months .block---rcord-sl .slide .line .week .week--line-mark {
   float: left;
@@ -854,6 +882,7 @@ header .header--spisok-date .spisok-date--lines-m .block-line:last-child li {
   font-weight: 400;
   cursor: pointer;
   text-align: center;
+  background: #efefef;
   border-left: solid 1px #e5e5e5;
 }
 .block--months .block---rcord-sl .slide .line .week .week--line-big {
@@ -862,6 +891,7 @@ header .header--spisok-date .spisok-date--lines-m .block-line:last-child li {
   height: 60px;
   padding: 5px 20px;
   font-weight: 400;
+  background: #efefef;
 }
 .block--months .block---rcord-sl .slide .line .week .title--week {
   position: absolute;
@@ -1062,7 +1092,7 @@ footer {
   width: 100%;
   height: 200px;
   background: url(../img/fbg.jpg);
-  margin-top: 75px;
+  margin-top: 10px;
   padding: 30px 0;
   min-width: 1170px;
 }
@@ -1086,7 +1116,7 @@ footer .footer--linked {
 }
 footer .footer--linked .footer--linked--one {
   float: left;
-  width: 30%;
+  width: 33%;
   position: relative;
   height: 83px;
 }
@@ -1132,13 +1162,14 @@ footer .footer--linked .footer--linked--one .social {
   width: 100%;
   height: 48px;
   text-align: center;
+  display: flex;
 }
 footer .footer--linked .footer--linked--one .social li {
   display: inline-table;
   width: 45px;
   height: 48px;
   background: #23252a;
-  margin: 0 5px;
+  margin: 0 2px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1168,12 +1199,12 @@ footer .footer--linked .footer--linked--one .social a img {
 }
 footer .footer--linked .footer--linked--one .button-block {
   position: absolute;
-  display: block;
+  display: flex;
   bottom: 0px;
   right: 0px;
 }
 footer .footer--linked .footer--linked--two {
-  width: 40%;
+  width: 33%;
 }
 .block-login {
   position: fixed;
@@ -1343,4 +1374,52 @@ footer .footer--linked .footer--linked--two {
 }
 #popup {
   display: none;
+}
+#popup2 {
+  display: none;
+}
+.input-block {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0px 30px 0;
+  text-align: left;
+}
+.label-check {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  padding-left: 25px;
+}
+.label-check input {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  display: inline-block;
+}
+.button-block {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+.popup-button {
+  width: auto !important;
+  float: none !important;
+  display: inline-block !important;
+  height: 47px;
+  background: #2c9ed8;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  padding: 12px 20px;
+  color: #fff !important;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.popup-button:not(:last-child) {
+  margin-right: 20px;
 }

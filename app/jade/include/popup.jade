@@ -1,3 +1,4 @@
+
 .block-login#popup
     .phbg
     .tabs
@@ -11,3 +12,33 @@
                     p Данные успешно сохранены!
                 a.close
                     span
+                    
+.block-login#popup2(style="display: block")
+    .phbg
+    .tabs
+    
+        .middle
+            .login-in
+                .block-login_body 
+                    .logo
+                        img(src="img/logo.png")
+                    span.title Сообщение
+                    form
+                        .input-block
+                            label.label-check Это чекбокс
+                                input(type="checkbox")
+
+                        .input-block
+                            label.label-check Доброе утро, будьте внимательны в своих начинаниях
+                                input(type="checkbox")
+
+                        .input-block
+                            label.label-check Это чекбокс
+                                input(type="checkbox")
+                                
+                        .button-block
+                            a.popup-button(href="#") Ккнопка 1
+                            a.popup-button(href="#") Ккнопка 2
+
+                    a.close
+                        span
